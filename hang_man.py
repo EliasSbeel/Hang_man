@@ -1,8 +1,9 @@
 import random 
 from hang_man_word import word_list
-from hangman_stages import stages
+from hangman_stages import stages, logo
 
 lives = 6
+print(logo)
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
